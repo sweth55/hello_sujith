@@ -1,0 +1,28 @@
+/* Navbar styling */
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  padding: 20px 500px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  transition: color 0.3s;
+}
+
+.navbar-links li a:hover {
+  color: #007bff;
+}
